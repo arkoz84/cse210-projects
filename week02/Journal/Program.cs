@@ -4,6 +4,10 @@ class Program
 {
     static void Main(string[] args)
     {
+     
+        // Exceeds requirements by saving and loading journal entries as JSON.
+        // JSON preserves dates, prompts, and responses, including quotes and commas.
+        
         PromptGenerator promptGenerator = new PromptGenerator();
         Journal journal = new Journal();
  
