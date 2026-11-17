@@ -22,7 +22,7 @@ class Program
         Console.WriteLine();
         DisplayOrder(2, peruOrder);
     }
-        static void DisplayOrder(int orderNumber, Order order)
+    static void DisplayOrder(int orderNumber, Order order)
     {
         Console.WriteLine($"Order {orderNumber}");
         Console.WriteLine("Packing label");

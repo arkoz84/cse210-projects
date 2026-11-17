@@ -1,4 +1,5 @@
 using System;
+
 public class Customer
 {
     private string _name;
@@ -9,12 +10,10 @@ public class Customer
         _name = name;
         _address = address;
     }
-
     public bool IsInUSA()
     {
         return _address.IsInUSA();
     }
-
     public string GetShippingLabel()
     {
         return $"{_name}\n{_address.GetDisplayText()}";
