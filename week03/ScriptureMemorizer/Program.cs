@@ -1,5 +1,6 @@
 using System;
 // Additional requirements: I added more than one scripture and the hability to select it
+// Please consider this comment
 class Program
 {
     //static void Main(string[] args)
