@@ -27,11 +27,11 @@ public class Video
         return $"{_title} by {_author} ({_lengthInSeconds} seconds)";
     }
     public void DisplayComments()
-{
-    foreach (Comment comment in _comments)
-    {
-        System.Console.WriteLine($"  {comment.GetDisplayText()}");
+    {   
+        foreach (Comment comment in _comments)
+        {
+            System.Console.WriteLine($"  {comment.GetDisplayText()}");
+        }
     }
-}
 }
 
