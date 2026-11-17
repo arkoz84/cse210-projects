@@ -1,5 +1,5 @@
 using System;
-
+// Additional requirements: I added more than one scripture and the hability to select it
 class Program
 {
     //static void Main(string[] args)
@@ -139,7 +139,7 @@ class Program
             Console.WriteLine();
             Console.Write("Press Enter to hide more words or type 'quit': ");
             string input = Console.ReadLine();
-            
+
             if (input == null || input.Trim().Equals("quit", StringComparison.OrdinalIgnoreCase))
             {
                 return;
